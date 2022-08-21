@@ -1,14 +1,24 @@
-function navHome()
+async function navHome()
 {
-    pageRouter("home", "display");
+    // await pageRouter("projects", "remove");
+    // await pageRouter("bio", "remove");
+    await pageRouter("home", "display");
 }
 
-function navBio()
+async function navBio()
 {
-    pageRouter("bio", "display");
+//     await pageRouter("projects", "remove");
+//     await pageRouter("home", "remove");
+    await pageRouter("bio", "display");
 }
 
-function navProjects()
+async function navProjects()
 {
-    pageRouter("projects", "display");
+    // await pageRouter("bio", "remove");
+    // await pageRouter("home", "remove");
+    await pageRouter("projects", "display");
 }
+
+document.querySelector(".nav-about").addEventListener("click", navBio)
+document.querySelector(".nav-home").addEventListener("click", navHome)
+document.querySelector(".nav-sites").addEventListener("click", navProjects)
