@@ -34,13 +34,6 @@
     object-fit: cover;
 }
 
-.home-logos {
-    max-height: 40px;
-    max-width: 40px;
-    margin: 8px;
-    border-radius: 8px;
-}
-
 #home-content-container p {
     margin: 3px;
     width: 100vw;
@@ -54,12 +47,6 @@
     justify-content: flex-start;
     align-items: center;
     margin: 0px;
-}
-
-#home-link-container {
-    width: 65vw;
-    display: flex;
-    justify-content: center;
 }
 
 #home-icon-content {

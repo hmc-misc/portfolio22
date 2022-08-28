@@ -1,0 +1,33 @@
+#home-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 60vh; */
+    justify-content: flex-start;
+}
+
+.home-row-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.home-row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.home-row-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.skill-icon {
+    max-height: 75px;
+    max-width: 75px;
+}
